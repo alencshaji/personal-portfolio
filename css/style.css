@@ -893,6 +893,7 @@ h4.left-grid-blog {
     -moz-border-radius: 4px;
     -o-border-radius: 4px;
     -ms-border-radius: 4px;
+     /* float: right; */
 	 cursor: pointer;
 }
 .contact-right button[type="submit"]:hover {

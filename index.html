@@ -319,9 +319,10 @@
 				<h4 class="mb-4">Get In Touch</h4>
 				<div class="contact-right">
                     <form name="submit-to-google-sheet">
-                        <input type="text" name="Name" placeholder="Your name">
+                        <!-- <input   pattern="[A-Za-z]" type="text" name="Name" placeholder="Your name" required> -->
+						<input type="text" name="Name" placeholder="Your name" required pattern="[A-Za-z]{2,50}" title="Please enter a valid name (2-50 alphabetical characters)">
                         <input type="email" name="Email" placeholder="Your email address" required>
-                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
                         <button type="submit" class="btn btn2">Submit</button>
                     </form>
                     <span id="msg"></span>
