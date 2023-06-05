@@ -1272,3 +1272,7 @@ footer {
 }
 
 
+.formerror{
+	color: red;
+	font-style:italic;
+}
